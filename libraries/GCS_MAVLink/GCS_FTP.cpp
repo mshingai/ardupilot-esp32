@@ -28,6 +28,9 @@ struct GCS_MAVLINK::ftp_state GCS_MAVLINK::ftp;
 
 // timeout for session inactivity
 #define FTP_SESSION_TIMEOUT 3000
+#define DT_REG 0
+#define DT_DIR 1
+#define DT_LNK 10
 
 bool GCS_MAVLINK::ftp_init(void) {
 
